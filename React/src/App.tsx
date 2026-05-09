@@ -9,7 +9,7 @@ import TasksPage from "./pages/TasksPage";
 function App() {
   return (
     <AppLayout>
-      <Container maxWidth="lg" sx={{ py: 2 }}>
+      <Container maxWidth="lg" sx={{ py: 4 }}>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
